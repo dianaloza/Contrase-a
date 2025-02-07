@@ -5,7 +5,7 @@
 const passwordInput = document.getElementById("password");
 const messageElement =  document.getElementById("message");
 
-btn.addEventListener("input", function() {
+addEventListener("input", function() {
     const contraseña = passwordInput.value;
     let message = "";
     let messageClass = "";
